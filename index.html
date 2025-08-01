@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>강효창 포트폴리오</title>
+  <style>
+    body { font-family: 'Noto Sans KR', sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header { background: #1a73e8; color: white; padding: 20px 0; text-align: center; }
+    nav { background: #f4f4f4; padding: 10px; text-align: center; }
+    nav a { margin: 0 15px; color: #333; text-decoration: none; font-weight: bold; }
+    section { padding: 40px; max-width: 900px; margin: auto; }
+    h2 { color: #1a73e8; }
+    .project { border-bottom: 1px solid #ddd; padding: 20px 0; }
+    footer { text-align: center; padding: 20px; background: #f4f4f4; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>강효창 | AI 개발 & 데이터 전처리</h1>
+    <p>스마트팩토리 AI 모델 개발자 지망생</p>
+  </header>
+
+  <nav>
+    <a href="#about">소개</a>
+    <a href="#projects">프로젝트</a>
+    <a href="#skills">기술 스택</a>
+    <a href="#contact">연락처</a>
+  </nav>
+
+  <section id="about">
+    <h2>소개</h2>
+    <p>데이터 전처리부터 AI 모델 설계·구현까지, 전 과정을 경험하며 스마트팩토리 AI에 적용 가능한 역량을 키워왔습니다. 
+    현대오토에버 스마트팩토리 AI 부서에서 설비 품질 관리 자동화와 공정 최적화를 위한 AI 모델을 개발하는 것이 목표입니다.</p>
+  </section>
+
+  <section id="projects">
+    <h2>프로젝트</h2>
+
+    <div class="project">
+      <h3>신용카드 상환 여부 예측 모델</h3>
+      <p>고객 결제 내역 데이터를 기반으로 상환 여부를 예측하는 머신러닝 모델 개발. 
+      <strong>라벨 인코딩·스케일링, 클래스 불균형 처리</strong> 및 다양한 알고리즘(XGBoost, Random Forest 등) 비교 수행.</p>
+    </div>
+
+    <div class="project">
+      <h3>강아지 피부병 진단 멀티모달 AI</h3>
+      <p>AIHUB 피부병 이미지와 텍스트 데이터를 활용해 
+      <strong>ResNetV2 + BERT 기반 멀티 인풋(Multi-Input) 모델</strong>을 구현.
+      이미지 단일 모델 대비 정확도 20% 향상.</p>
+      <p><a href="https://colab.research.google.com/drive/1HSTfdSN0GH40x3rG2TTCPXDfsqBoParL?usp=sharing" target="_blank">[Colab 코드 보기]</a></p>
+    </div>
+
+    <div class="project">
+      <h3>SAP 기반 CBO 프로그램</h3>
+      <p>패션 기업 MM Module 프로세스를 가정하고, SAP 데이터를 활용해 <strong>CBO 프로그램</strong>을 개발. 
+      향후 설비 품질 저하로 인한 자재·설비 재구매 프로세스 자동화 AI 모델 개발로 확장 가능성을 확인.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>기술 스택</h2>
+    <ul>
+      <li><strong>언어:</strong> Python, SQL</li>
+      <li><strong>AI & ML:</strong> TensorFlow, Keras, Scikit-learn</li>
+      <li><strong>데이터 처리:</strong> Pandas, Numpy, TFRecord</li>
+      <li><strong>ERP & SAP:</strong> SAP MM Module, CBO 개발</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>연락처</h2>
+    <p>📧 이메일: youremail@example.com</p>
+    <p>🔗 GitHub/Colab: <a href="https://colab.research.google.com/drive/1HSTfdSN0GH40x3rG2TTCPXDfsqBoParL?usp=sharing" target="_blank">Colab 링크</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Kang Hyochang Portfolio</p>
+  </footer>
+</body>
+</html>
